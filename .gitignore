@@ -1,0 +1,41 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild
+/[Ll]ibrary/
+/[Gg]enerated/
+/[Ll]ogs/
+/[Uu]serSettings/
+*.stackdump
+*.apk
+*.obb
+*.symbols.zip
+
+# ===================================== #
+# Custom #
+# ===================================== #
+**/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml
+remote_config_data
+Assets/AddressableAssetsData/link.xml
+Assets/AddressableAssetsData/link.xml.meta
+Assets/AddressableAssetsData/Android/addressables_content_state.bin
+Assets/AddressableAssetsData/Android/addressables_content_state.bin.meta
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+/[Ee]xported[Oo]bj/
+.vs/
+.gradle/
+.idea/
+*.userprefs
+*.csproj
+*.vsconfig
+*.pidb
+*.suo
+*.sln*
+*.user
+*.unityproj
+*.booproj

@@ -1,0 +1,21 @@
+{
+    "name": "LootBoxSimulator.Screens",
+    "rootNamespace": "LootBoxSimulator.Screens",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:2efc78900bcc64f6cb7c67f25b4d17ac",
+        "GUID:b16115f73f6a3454785b8e9404bfd7e9",
+        "GUID:0372e1b814349474794fb2f35340178b",
+        "GUID:13397d89f45564201966c0fdf0e072fc",
+        "GUID:bfa1de35f8392459bbbe8bc7fbe2b827"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
