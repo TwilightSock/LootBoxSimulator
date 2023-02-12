@@ -14,7 +14,7 @@ namespace LootBoxSimulator.Controllers
         private float totalPercentage;
         private bool isInitialized = false;
         
-        public GameObject InitializeItemPrefab(Vector2 _spawnPosition)
+        public GameObject InitializeItemPrefab(Vector3 _spawnPosition)
         {
             ItemCreator _droppedItem = DropItem();
 
@@ -28,14 +28,14 @@ namespace LootBoxSimulator.Controllers
             return null;
         }
 
-        public GameObject InitializeItemPrefabWithParent(Vector2 _spawnPosition, Transform _parentTransform)
+        public GameObject InitializeItemPrefabWithParent(Vector3 _spawnPosition, Transform _parentTransform)
         {
             GameObject _itemPrefab = InitializeItemPrefab(_spawnPosition);
             if (_itemPrefab != null)
             {
                 _itemPrefab.transform.SetParent(_parentTransform);
                 _itemPrefab.transform.localScale = new Vector2(1,1);
-            
+                
                 return _itemPrefab;
             }
             
@@ -49,7 +49,7 @@ namespace LootBoxSimulator.Controllers
         {
             if (!isInitialized)
             {
-                totalPercentage = itemList.Sum(item => item.GetItemDropChance);
+                totalPercentage = itemList.Sum(_item => _item.GetItemDropChance);
                 isInitialized = true;
             }
             

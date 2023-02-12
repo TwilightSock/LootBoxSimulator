@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 70e92df91699f664ab5bad7bf4723022, type: 3}
   itemName: Ruby
-  dropChance: 15
+  dropChance: 0.46875
