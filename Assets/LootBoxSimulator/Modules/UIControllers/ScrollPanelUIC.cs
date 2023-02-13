@@ -12,7 +12,7 @@ namespace LootBoxSimulator.UIControllers
         [SerializeField] private GameObject rewardPanel;
         [SerializeField] private GameObject centerLine;
         [SerializeField] private float scrollSpeed = -20;
-        [SerializeField] private float velocity = 2f;
+        [SerializeField] private float velocity = 3f;
         
         protected override void Update()
         {

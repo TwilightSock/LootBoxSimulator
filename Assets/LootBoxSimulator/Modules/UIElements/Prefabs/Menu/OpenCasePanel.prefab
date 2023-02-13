@@ -391,8 +391,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb7636de0855a4faf80e21e8befb0149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -20
-  velocity: 5
+  rewardPanel: {fileID: 0}
+  centerLine: {fileID: 0}
+  scrollSpeed: -22
+  velocity: 3
 --- !u!114 &7439451422825517968
 MonoBehaviour:
   m_ObjectHideFlags: 0
